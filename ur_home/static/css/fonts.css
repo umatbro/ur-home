@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa/Comfortaa-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa/Comfortaa-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa/Comfortaa-Light.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Source Code Pro */
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Light.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-ExtraLight.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro', sans-serif;
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Medium.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro', sans-serif;
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Semibold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
