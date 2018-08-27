@@ -6,4 +6,5 @@ app_name = 'ur-auth'
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('login/', views.login, name='login'),
 ]
