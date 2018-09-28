@@ -1,3 +1,5 @@
+from auth_api.serializers import UserSerializer
+
 from django.contrib import auth
 from rest_framework.views import APIView
 from rest_framework.request import Request
@@ -17,8 +19,14 @@ class LoginView(APIView):
 
 
 class LogoutView(APIView):
-    def get(self, request: Request):
+    def post(self, request: Request):
         user = request.user
-        print(user)
         auth.logout(request)
         return Response({'msg': f'logged out {user if user else "noone"}'})
+
+
+class UserDetailsView(APIView):
+    def get(self, request: Request):
+        if request.user and request.user.is_authenticated:
+            return Response(UserSerializer(request.user).data)
+        return Response({'msg': 'You are not logged in!'})

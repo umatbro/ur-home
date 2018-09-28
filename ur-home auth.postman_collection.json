@@ -45,23 +45,39 @@
 		{
 			"name": "logout",
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": ""
+					"raw": "localhost:8000/api/logout",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"logout"
+					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "home",
+			"name": "user",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": ""
+					"raw": "localhost:8000/api/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user"
+					]
 				}
 			},
 			"response": []
